@@ -13,7 +13,6 @@ const images = [
   },
 ];
 const createGallery = document.querySelector('.gallery');
-console.log(createGallery);
 images.forEach(({url, alt}) => {
   const string = `<li ><img src="${url}" alt="${alt}"</li>`;
   createGallery.insertAdjacentHTML("beforeend", string)
