@@ -12,6 +12,4 @@ ingredients.forEach(
   const name = document.createElement('li');
   name.classList.add('item')
   name.textContent = ingredient;
-  list.appendChild(name)
-}
-)
+  list.appendChild(name)})
