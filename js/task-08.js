@@ -10,6 +10,6 @@ function onFormSend(event) {
   if (email.value === "" || password.value === "") {
     alert("Please fill in all the fields!");
   }
-console.log(elements);
+  console.log(elements);
 submitForm.reset();
 }

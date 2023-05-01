@@ -6,7 +6,7 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
   }
-    function onColorChange() {
+const onColorChange = () => {
         document.body.style.backgroundColor = getRandomHexColor();
         outputColor.innerHTML = getRandomHexColor();
     }
