@@ -25,9 +25,14 @@ button {
 
 .gallery {
   display: flex;
+  align-items: center;
   gap: 10px;
   list-style: none;
   padding: 0;
+}
+.wrap{
+  flex-wrap: wrap;
+
 }
 img {
   width: 300px;

@@ -25,6 +25,7 @@ function createBoxes(amount) {
       boxArray.push(box)
     }
     boxList.append(...boxArray)
+    boxList.classList.add('gallery', 'wrap')
   }
   
 function destroyBoxes(){
